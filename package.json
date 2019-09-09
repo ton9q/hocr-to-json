@@ -1,0 +1,26 @@
+{
+  "name": "project_pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "create": "node src/parser.js",
+    "find": "node src/index.js",
+    "lint": "eslint -c .eslintrc.js ./**/*.js",
+    "test": "mocha test.js"
+  },
+  "author": "ton9",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^15.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0"
+  }
+}
